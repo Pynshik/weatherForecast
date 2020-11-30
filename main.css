@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#settings {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.cities {
+    height: 42px;
+    margin-top: 10px;
+    border-radius: 4px;
+    width: fit-content;
+}
+
+#dates {
+    display: inline-block;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 0 4px;
+    list-style: none;
+    font-weight: 400;
+}
+
+#dates ul {
+    display: inline-flex;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+}
+
+#dates ul li {
+    display: inline;
+    width: 80px;
+
+    white-space: nowrap;
+    line-height: 40px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+#dates ul li:hover {
+    background: rgb(255, 251, 0);
+}
+
+.active {
+    font-weight: 700;
+}
+
+#title {
+    width: fit-content;
+    margin: 0 auto;
+    font-family: cursive;
+    margin-top: 10px;
+}
+
+.highcharts-background {
+    opacity: 0;
+}
+
+#blockWeather {
+    margin: 0 auto;
+    width:300px;
+    border:1px solid green;
+    border-radius:20px;
+    text-align:center;
+}
+
+#img {
+    height:40px;
+    width:50px;
+}
