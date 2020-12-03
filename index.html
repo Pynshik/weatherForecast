@@ -10,22 +10,17 @@
     <h1 id="title">Погода в городах Беларуси</h1>
     <div class="container">
         <div id="settings">
-        <select class="cities" id="cities">
-            <option selected disabled>Выберите город</option>
-            <option value='Minsk'>Минск</option>
-            <option value='Brest'>Брест</option>
-            <option value='Vitebsk'>Витебск</option>
-            <option value='Gomel'>Гомель</option>
-            <option value='Grodno'>Гродно</option>
-            <option value='Baranovichi'>Барановичи</option>
-        </select>
-        <div id="dates">
-            <ul>
-                <li class="active" id="firstDay" value="1"></li>
-                <li id="secondDay" value="2"></li>
-                <li id="thirdDay" value="3"></li>
-            </ul>
-        </div>
+            <div id="search">
+                <input type="search" placeholder="Введите название города" value="Минск" id="searchCity">
+                <input type="submit" value="" id="searchBtn">
+            </div>
+            <div id="dates">
+                <ul>
+                    <li class="active" id="firstDay" value="1"></li>
+                    <li id="secondDay" value="2"></li>
+                    <li id="thirdDay" value="3"></li>
+                </ul>
+            </div>
         </div>
         <div id="blockWeather" hidden>
             <h2 id="city"></h2>
