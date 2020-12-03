@@ -6,8 +6,42 @@
 }
 
 #settings {
+    margin-top: 10px;
     margin-bottom: 10px;
     display: inline-block;
+}
+
+#search {
+    margin: 0px 10px 10px 0px;
+    width: 270px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    min-height: 20px;
+}
+
+#search input[type="search"] {
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    width: 250px;
+    vertical-align: middle;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+#search input[type="submit"] {
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none; 
+    background: url(search.png) no-repeat 50% 50%;
+    background-size: contain;
+    float: right;
 }
 
 .cities {
